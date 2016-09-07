@@ -1,0 +1,67 @@
+header {
+	width: 100%;
+	height: 100px;
+	background-color: #90C3EB;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+}
+
+ul {
+	margin:0px;
+}
+
+nav>ul {
+	position: absolute;
+	right: 30px;
+	margin-top: 40px;
+	font-size: 15px;
+	display: inline;
+}
+
+nav li {
+	display: inline;
+	padding: 15px;
+}
+	
+#imgrid {
+	text-align:center;
+	padding-top: 30px;
+}
+
+#imgrid li {
+	padding-left: 100px;
+	display: inline;
+}
+
+#imgrid button {
+	padding-left: 100px;
+}
+
+#logo {
+	font-family: "georgia";
+	color: #131313;
+	font-size: 30px;
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 30px;
+	font-weight: bold;
+}
+
+a:visited, a:link {
+	color: black;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
+	color: white;
+}
+
+#bloco {
+	background-color: black;
+	height: 500px;
+}
